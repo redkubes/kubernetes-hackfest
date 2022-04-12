@@ -67,7 +67,7 @@ In this lab, we'll be installing [Otomi](https://github.com/redkubes/otomi-core)
   
   ```bash
   # On Mac
-  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/Downloads/ca.crt  
+  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/Downloads/ca.cer 
   ```  
 
   ```powershell
